@@ -1,0 +1,57 @@
+@import "colors";
+
+.Navigation {
+  background-color: $skyblue;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: $nav_height;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px;
+}
+
+@mixin Navigation__header-text {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+@mixin Navigation__icon {
+  flex-grow: 1;
+  height: 30px;
+  margin: 20px;
+  cursor: pointer;
+  width: 30px;
+}
+
+.Navigation__center-text {
+  text-align: center;
+  margin-top: 27px;
+  @include Navigation__header-text;
+}
+
+.Navigation__icon--left {
+  @include Navigation__icon;
+  justify-content: flex-start;
+}
+
+.Navigation__icon--right {
+  @include Navigation__icon;
+  float: right; // oops
+  justify-content: flex-end;
+}
+
+.Navigation__special-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navigation__user-container {
+  display: flex;
+  margin-right: 50px;
+  flex: 1;
+}
+
+.Navigation__welcome-message {
+  align-self: center;
+}

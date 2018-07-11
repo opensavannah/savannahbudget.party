@@ -1,0 +1,52 @@
+.PartyLevelHeader {
+  padding-top: $nav_height;
+  max-height: 205px;
+  overflow: hidden;
+  text-align: center;
+  background-color: $grey2;
+}
+
+@mixin PartyLevelHeader__overlay {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  height: 205px - $nav_height;
+  padding: 25px 5%;
+}
+
+.PartyLevelHeader__overlay--green {
+  @include PartyLevelHeader__overlay;
+  background-color: rgba($green, 0.8);
+  color: $white;
+}
+
+.PartyLevelHeader__overlay--grey {
+  @include PartyLevelHeader__overlay;
+  background-color: rgba($grey, 0.9);
+  color: $text-color;
+}
+
+.PartyLevelHeader__image--complete {
+  opacity: 0.4;
+}
+
+.PartyLevelHeader__status {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.PartyLevelHeader__value {
+  margin: 5px 0 7px;
+  font-size: 36px;
+}
+
+.PartyLevelHeader__change {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.PartyLevelHeader__reset {
+  cursor: pointer;
+  @include small-caps;
+}

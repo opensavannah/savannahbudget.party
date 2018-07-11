@@ -1,0 +1,15 @@
+.TotalFundsAvailable {
+  text-align: center;
+  padding-right: 15px;
+}
+
+.TotalFundsAvailable__header {
+  @include Navigation__header-text;
+  line-height: 12px;
+  margin: 10px 0 0;
+  height: 20px;
+}
+
+.TotalFundsAvailable__dollars {
+  margin: 2px 0 10px;
+}
