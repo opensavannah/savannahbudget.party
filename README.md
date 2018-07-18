@@ -1,5 +1,3 @@
-
-
 ### Table of Contents
 
 - [Project Description](#project-description)
@@ -18,7 +16,7 @@ Thanks for coming here to learn more!
 
 Budget Party was built to help people understand and augment a city budget for Savannah. It is an interactive app that is best used in context of a "Budget Party" event. 
 
-Historically, Budget party events have 4 parts:
+Budget party events have 4 parts:
 
 - **A budget Overview.** A quick presentation is given to people that primes them on the city budget, specifically the parts that citizens can influence.  
 
@@ -28,8 +26,6 @@ Historically, Budget party events have 4 parts:
 
 - **Panel Discussion** Once judging is done there is an open discussion on budgeting based on the submitted budgets, feasibility, and real world budgeting experience from the panelist/judges. 
 
-
-
 ## What's Next
 
 The Budget Party team is currently on pause. Budget season in Austin is over for 2017 but we are working to evaluate how best to move forward with the project to be ready for the 2018 budget season. 
@@ -38,7 +34,7 @@ The Budget Party team is currently on pause. Budget season in Austin is over for
 
 ### Contributing
 
-This project has received contributions from some wonderful volunteers. We would love to add your name to the list below. Over the course of this project, we have opportunities to help with design, development, QA & testing, writing, and more. 
+This project has received contributions from some wonderful volunteers. We would love to add your name to the list below. Over the course of this project, we have opportunities to help with design, development, QA & testing, writing, and more. 
 
 ## Dev Getting started
 
