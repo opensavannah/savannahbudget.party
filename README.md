@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Savannah Budget App was built to help people understand and augment a city budget for Savannah. It is an interactive app that is best used in context of a "Budget Party" event. I
+Savannah Budget App is a project forked from [Open Austin](https://github.com/openaustin) that was built to help people understand and augment a city budget for Savannah. It is an interactive app that is best used in context of a "Budget Party" event. Upon balancing the budget successfully, users may choose whether to submit their budget for feedback to the City's Department of Budget Management.
 
 
 
