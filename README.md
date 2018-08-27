@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Budget Party was built to help people understand and augment a city budget for Savannah. It is an interactive app that is best used in context of a "Budget Party" event. 
+Savannah Budget App was built to help people understand and augment a city budget for Savannah. It is an interactive app that is best used in context of a "Budget Party" event. I
 
 
 
