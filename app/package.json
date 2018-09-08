@@ -3,22 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.0.0",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.80.0",
     "gh-pages": "^1.0.0",
-    "node-sass": "^4.5.0"
+    "node-sass": "^4.5.0",
+    "npm-run-all": "^4.0.2",
+    "prettier": "^1.14.2",
+    "prettier-eslint-cli": "^4.7.1"
   },
   "dependencies": {
     "accounting": "^0.4.1",
-    "babel-eslint": "^7.2.3",
     "bootstrap": "^3.3.7",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-nibble": "^3.1.2",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.1",
-    "eslint-plugin-react": "^7.0.0",
     "firebase": "^3.6.1",
     "history": "^4.6.3",
-    "npm-run-all": "^4.0.2",
     "prop-types": "^15.5.9",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
@@ -41,6 +44,7 @@
     "lint": "eslint src",
     "nibble": "eslint-nibble src",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "format": "prettier-eslint --write 'src/**/*.js'"
   }
 }

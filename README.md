@@ -22,12 +22,12 @@ This project has received contributions from some wonderful volunteers. We would
 
 ## Dev Getting started
 
-This project has a dependency on Node and npm. Make sure they are install on your machine by running the following commands:
+This project has a dependency on Node and yarn. Make sure they are install on your machine by running the following commands:
 `node -v`
-`npm -v`
+`yarn -v`
 
 This should return the version number of your install.
-If it doesn't Google how to install Node & npm for your operating system.
+If it doesn't Google how to install Node & yarn for your operating system.
 _Maybe these links could help you?_
 
 - [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
@@ -40,20 +40,20 @@ Once you have cloned this repo to you local machine, open the `app` directory in
 
 ### Installation
 
-1. `npm install`
+1. `yarn install`
 
 ### Development
 
-1. `npm start`
+1. `yarn start`
 
 2. visit http://localhost:3000 in your browser
 
 ### Build
 
-1. `npm run build`
+1. `yarn run build`
 
 ### Deploy
 
-1. `npm run deploy`
+1. `yarn run deploy`
 
 ---
