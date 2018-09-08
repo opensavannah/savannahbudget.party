@@ -2,6 +2,7 @@
   "name": "budgetparty",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://budget.opensavannah.org",
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
