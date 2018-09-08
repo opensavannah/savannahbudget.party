@@ -2,6 +2,7 @@
   "name": "budgetparty",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://budget.opensavannah.org",
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2",
