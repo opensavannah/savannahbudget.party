@@ -1,31 +1,33 @@
-import { ref, firebaseAuth } from '../config/constants'
+import {ref, firebaseAuth} from '../config/constants';
 
-export function auth (email, pw) {
-  return firebaseAuth().createUserWithEmailAndPassword(email, pw)
-    .then(saveUser)
+export function auth(email, pw) {
+  return firebaseAuth()
+    .createUserWithEmailAndPassword(email, pw)
+    .then(saveUser);
 }
 
-export function logout () {
-  return firebaseAuth().signOut()
+export function logout() {
+  return firebaseAuth().signOut();
 }
 
-export function login (email, pw) {
-  return firebaseAuth().signInWithEmailAndPassword(email, pw)
+export function login(email, pw) {
+  return firebaseAuth().signInWithEmailAndPassword(email, pw);
 }
 
-export function resetPassword (email) {
-  return firebaseAuth().sendPasswordResetEmail(email)
+export function resetPassword(email) {
+  return firebaseAuth().sendPasswordResetEmail(email);
 }
 
-export function anonymous_auth () {
-  return firebaseAuth().signInAnonymously()
+export function anonymous_auth() {
+  return firebaseAuth().signInAnonymously();
 }
 
-export function saveUser (user) {
-  return ref.child(`users/${user.uid}/info`)
+export function saveUser(user) {
+  return ref
+    .child(`users/${user.uid}/info`)
     .set({
       email: user.email,
-      uid: user.uid
+      uid: user.uid,
     })
-    .then(() => user)
+    .then(() => user);
 }

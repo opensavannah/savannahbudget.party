@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import moneyImg from '../images/money.svg'
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import moneyImg from '../images/money.svg';
 // import PropTypes from 'prop-types';
-
 
 export default class Done extends Component {
   render() {
@@ -13,12 +12,17 @@ export default class Done extends Component {
           Thank You! <br />
           Your budget has been submitted for review
         </p>
-        <Link to="/dashboard" className="Submit__next-button">Go Home</Link>
-        <Link to="https://github.com/open-austin/budgetparty" className="center-text">
+        <Link to="/dashboard" className="Submit__next-button">
+          Go Home
+        </Link>
+        <Link
+          to="https://github.com/open-austin/budgetparty"
+          className="center-text"
+        >
           Learn More about Budget Party
         </Link>
       </div>
-    )
+    );
   }
 }
 

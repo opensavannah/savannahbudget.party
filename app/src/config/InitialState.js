@@ -6,4 +6,4 @@ export default {
   services,
   departments,
   funds,
-}
+};

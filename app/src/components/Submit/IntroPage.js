@@ -1,14 +1,18 @@
-import React from 'react'
-import { FormattedNumber } from 'react-intl'
-import { Link } from 'react-router-dom'
-import PropTypes from 'prop-types'
+import React from 'react';
+import {FormattedNumber} from 'react-intl';
+import {Link} from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-const IntroPage = (props) => {
-  const { funds } = props
+const IntroPage = props => {
+  const {funds} = props;
 
   return (
     <div className="Submit__intro-body">
-      <img src={'/images/submit.svg'} className="Submit__img" alt="Envelope Icon" />
+      <img
+        src={'/images/submit.svg'}
+        className="Submit__img"
+        alt="Envelope Icon"
+      />
       <h3 className="Submit__title">Your budget</h3>
       <span className="Submit__desc">
         <FormattedNumber
@@ -31,14 +35,14 @@ const IntroPage = (props) => {
         Review & Submit
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default IntroPage
+export default IntroPage;
 
 IntroPage.propTypes = {
   funds: PropTypes.shape({
     sumOfServiceSpending: PropTypes.number.isRequired,
     servicesSumPercentChange: PropTypes.number.isRequired,
   }).isRequired,
-}
+};

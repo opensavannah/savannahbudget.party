@@ -18,6 +18,6 @@ export function updateCompletedDepartments(serviceIndex, departments) {
   return {
     type: 'UPDATE_COMPLETED_DEPARTMENTS',
     serviceIndex,
-    departments
-  }
+    departments,
+  };
 }

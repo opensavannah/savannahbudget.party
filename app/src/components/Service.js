@@ -1,26 +1,31 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import _ from 'underscore'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import _ from 'underscore';
 import PropTypes from 'prop-types';
 
-import Navigation from './Navigation'
-import PartyLevelHeader from './PartyLevelHeader'
+import Navigation from './Navigation';
+import PartyLevelHeader from './PartyLevelHeader';
 
 const Service = props => {
   const handleReturnToDashboard = (service, e) => {
-    props.onReturnToDashboard(service)
-  }
+    props.onReturnToDashboard(service);
+  };
 
-  const { services, funds } = props
-  const service = services[props.match.params.id]
-  const isIncomplete = service.status !== "complete"
+  const {services, funds} = props;
+  const service = services[props.match.params.id];
+  const isIncomplete = service.status !== 'complete';
 
   return (
     <div>
-      <Navigation service={service} funds={funds} showBack showTotalFunds showServiceFunds />
+      <Navigation
+        service={service}
+        funds={funds}
+        showBack
+        showTotalFunds
+        showServiceFunds
+      />
 
       <div className="Service">
-
         <PartyLevelHeader {...props} service={service} />
 
         <div className="Service__body">
@@ -28,36 +33,44 @@ const Service = props => {
           <p className="Service__desc">{service.desc}</p>
         </div>
 
-        {
-          isIncomplete
-            ?
-            <div className="Service__next-button-flex-container">
-              <Link to={`/service/${service.index}/department/${service.departments[0]}`}
-                className="Service__next-button"
-              >
-                {(service.index + 1) < services.length ? 'Start Budgeting' : 'Review Final Budget'}
-              </Link>
-            </div>
-            :
-            <div className="Service__review-buttons">
-              <Link to={`/service/${service.index}/department/${service.departments[0]}`}
-                className="Service__edit-button">
-                Revise
-              </Link>
-              <Link to="/dashboard" onClick={handleReturnToDashboard.bind(this, service)}
-                className="Service__done-button">
-                Done
-              </Link>
-            </div>
-        }
-
+        {isIncomplete ? (
+          <div className="Service__next-button-flex-container">
+            <Link
+              to={`/service/${service.index}/department/${
+                service.departments[0]
+              }`}
+              className="Service__next-button"
+            >
+              {service.index + 1 < services.length
+                ? 'Start Budgeting'
+                : 'Review Final Budget'}
+            </Link>
+          </div>
+        ) : (
+          <div className="Service__review-buttons">
+            <Link
+              to={`/service/${service.index}/department/${
+                service.departments[0]
+              }`}
+              className="Service__edit-button"
+            >
+              Revise
+            </Link>
+            <Link
+              to="/dashboard"
+              onClick={handleReturnToDashboard.bind(this, service)}
+              className="Service__done-button"
+            >
+              Done
+            </Link>
+          </div>
+        )}
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Service
+export default Service;
 
 Service.propTypes = {
   services: PropTypes.arrayOf(

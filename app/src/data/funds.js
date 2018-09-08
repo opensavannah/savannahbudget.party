@@ -5,6 +5,6 @@ const funds = {
   lastYearServicesSum: 188400000,
   sumOfServiceSpending: null,
   generalFundsRemaining: null,
-}
+};
 
 export default funds;

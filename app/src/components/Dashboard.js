@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
-import Navigation from './Navigation'
-import PartyLevel from './PartyLevel'
+import Navigation from './Navigation';
+import PartyLevel from './PartyLevel';
 
 export default class Dashboard extends Component {
-  render () {
-    const { services, funds, user } = this.props;
+  render() {
+    const {services, funds, user} = this.props;
 
-    const getServiceLink = (service) => {
+    const getServiceLink = service => {
       // The Welcome Level should go back to the Intro pages...
       if (service.index === 0) return '/intro/1';
       // The Budget Submission will also have a special link...
@@ -17,28 +17,28 @@ export default class Dashboard extends Component {
       else return `/service/${service.index}`;
     };
 
-    const isLinkClickAllowed = (service) => {
-      return service.status && service.status !== "locked";
-    }
+    const isLinkClickAllowed = service => {
+      return service.status && service.status !== 'locked';
+    };
 
     return (
       <div>
         <Navigation showUser showTotalFunds funds={funds} user={user} />
 
         <div className="Dashboard__body">
-          {services.map(service => {
-            return isLinkClickAllowed(service)
-              ?
+          {services.map(
+            service =>
+              isLinkClickAllowed(service) ? (
                 <Link to={getServiceLink(service)} key={service.index}>
                   <PartyLevel {...service} />
                 </Link>
-              :
+              ) : (
                 <PartyLevel {...service} key={service.index} />
-          })}
+              ),
+          )}
         </div>
-
       </div>
-    )
+    );
   }
 }
 

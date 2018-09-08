@@ -1,23 +1,28 @@
-import React from 'react'
+import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function Tabs(props) {
-  let baseClass = "auth-tab";
-  const { tabList, activeTab, changeTab } = props
+  let baseClass = 'auth-tab';
+  const {tabList, activeTab, changeTab} = props;
 
   return (
     <ul className="auth-tabs">
-      {tabList.map((tab) => {
+      {tabList.map(tab => {
         return (
-          <li key={tab.id}
-            className={tab.id === activeTab ? baseClass : `${baseClass} inactive-tab` }
+          <li
+            key={tab.id}
+            className={
+              tab.id === activeTab ? baseClass : `${baseClass} inactive-tab`
+            }
             onClick={changeTab.bind(this, tab)}
-          > {tab.text}
+          >
+            {' '}
+            {tab.text}
           </li>
-        )
+        );
       })}
     </ul>
-  )
+  );
 }
 
 Tabs.propTypes = {
