@@ -40,6 +40,8 @@
   },
   "globals": {
     "document": true,
-    "fetch": true
+    "fetch": true,
+    "navigator": true,
+    "confirm": true
   }
 }
