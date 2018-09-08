@@ -42,6 +42,5 @@
     "nibble": "eslint-nibble src",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "http://opensavannah.github.io/savannah-budget-game"
   }
 }
