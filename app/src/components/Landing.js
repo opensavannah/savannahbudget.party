@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Contributors from './Contributors';
+// import Contributors from './Contributors';
 import {Link} from 'react-router-dom';
 
 import logoAustinMonitor from '../images/landing/austin-monitor-circle-logo.png';
@@ -16,11 +16,11 @@ export default class Landing extends Component {
     this.state = {contributors: []};
   }
 
-  componentWillMount() {
-    fetch(this.props.contributorsURL)
-      .then(response => response.json())
-      .then(contributors => this.setState({contributors}));
-  }
+  // componentWillMount() {
+  //   fetch(this.props.contributorsURL)
+  //     .then(response => response.json())
+  //     .then(contributors => this.setState({contributors}));
+  // }
 
   render() {
     return (

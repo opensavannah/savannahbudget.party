@@ -13,7 +13,6 @@ import introConfetti3 from '../images/intro-confetti/3.svg';
 import introConfetti4 from '../images/intro-confetti/4.svg';
 
 import funds from '../data/funds';
-import {FormattedNumber} from 'react-intl';
 
 const generalFundAmount = Number(funds.generalFund / 1000000);
 

@@ -8,7 +8,7 @@ function services(state = InitialState.services, action = {}) {
   let service, departmentIds, departmentAmounts;
 
   switch (action.type) {
-    case 'UPDATE_SERVICE_STATUS':
+    case 'UPDATE_SERVICE_STATUS': {
       newServiceState.status = status;
 
       newState = [
@@ -17,7 +17,8 @@ function services(state = InitialState.services, action = {}) {
         ...state.slice(action.serviceIndex + 1),
       ];
       return newState;
-    case 'RECALCULATE_SERVICE_AMOUNT':
+    }
+    case 'RECALCULATE_SERVICE_AMOUNT': {
       service = state[serviceIndex];
       departmentIds = service.departments;
       departmentAmounts = departmentIds.map(dept => {
@@ -59,7 +60,8 @@ function services(state = InitialState.services, action = {}) {
       ];
 
       return newState;
-    case 'UPDATE_COMPLETED_DEPARTMENTS':
+    }
+    case 'UPDATE_COMPLETED_DEPARTMENTS': {
       service = state[serviceIndex];
       departmentIds = service.departments;
       departmentAmounts = departmentIds.map(dept => {
@@ -82,7 +84,7 @@ function services(state = InitialState.services, action = {}) {
       ];
 
       return newState;
-
+    }
     default:
       return state;
   }
