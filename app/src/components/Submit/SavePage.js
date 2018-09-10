@@ -34,7 +34,7 @@ class SavePage extends Component {
         Select your Council District
       </option>,
     );
-    for (let i = 1; i < 11; i += 1) {
+    for (let i = 1; i < 7; i += 1) {
       options.push(<option value={i} key={i}>{`District ${i}`}</option>);
     }
     return options;
@@ -132,7 +132,7 @@ class SavePage extends Component {
         <label htmlFor="councilDistrict">Council District</label>
         <small>
           Not sure what district you live in? &nbsp;
-          <a href="http://www.austintexas.gov/GIS/CouncilDistrictMap/">
+          <a href="https://opensavannah.org/neighborhood-ambassador">
             Check this map.
           </a>
         </small>
