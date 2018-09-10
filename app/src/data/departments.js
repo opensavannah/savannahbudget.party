@@ -1,9 +1,9 @@
 const departments = [
   {
     name: 'Municipal Courts',
-    description: 'The judicial branch of the City of Savannah',
+    description: 'The judicial branch of the City of Austin',
     learnMore:
-      'The mission of the Municipal Courts is to provide fair, efficient, and accountable service to the public by impartially administering justice so that the quality of life is enhanced.\n\n  Municipal court and Downtown Savannah Community Court make up the judicial branch of the City of Savannah local government. The court oversees cases of traffic, city ordinance, state code, and parking violations.',
+      'The mission of the Municipal Courts is to provide fair, efficient, and accountable service to the public by impartially administering justice so that the quality of life is enhanced.\n\n  Municipal court and Downtown Austin Community Court make up the judicial branch of the City of Austin local government. The court oversees cases of traffic, city ordinance, state code, and parking violations.',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 22514014,
@@ -11,7 +11,7 @@ const departments = [
     amount2017: 22514014,
     percentChange: 0,
     deptId: 1,
-    url: 'https://data.Savannahtexas.gov/stories/s/Municipal-Court/xm6x-8vij',
+    url: 'https://data.austintexas.gov/stories/s/Municipal-Court/xm6x-8vij',
     metrics: [
       'Number of cases magistrated',
       'Percent of offenders who complete rehabilitative recommendations',
@@ -34,7 +34,7 @@ const departments = [
     amount2017: 386573423,
     percentChange: 0,
     deptId: 2,
-    url: 'https://data.Savannahtexas.gov/stories/s/Police/v4d4-74jw',
+    url: 'https://data.austintexas.gov/stories/s/Police/v4d4-74jw',
     tradeoff: [
       {
         112397.25: '1 Officer full year of funding with equipment, fuel, salary, pension, etc.',
@@ -45,7 +45,7 @@ const departments = [
     name: 'Fire',
     description: 'Fire prevention and emergency response',
     learnMore:
-      'The Savannah Fire Department is committed to creating safer communities through prevention, preparedness and effective emergency response.\n\n ',
+      'The Austin Fire Department is committed to creating safer communities through prevention, preparedness and effective emergency response.\n\n ',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 189013831,
@@ -53,7 +53,7 @@ const departments = [
     amount2017: 189013831,
     percentChange: 0,
     deptId: 3,
-    url: 'http://www.Savannahtexas.gov/department/fire',
+    url: 'http://www.austintexas.gov/department/fire',
     tradeoff: [
       {
         132829: '1 Lieutenant',
@@ -68,7 +68,7 @@ const departments = [
     name: 'Emergency Management Services',
     description: 'Emergency systems, communication, and response',
     learnMore:
-      'The mission of Savannah-Travis County EMS is to positively impact and change the lives of the people we serve through the personal commitment of each of our members to provide great patient and customer care, pursue excellence in everything we do, and show compassion to others every day.\n\n EMS provides emergency communication services, ground and air emergency ambulance response, standby support, and special rescue services to the community.',
+      'The mission of Austin-Travis County EMS is to positively impact and change the lives of the people we serve through the personal commitment of each of our members to provide great patient and customer care, pursue excellence in everything we do, and show compassion to others every day.\n\n EMS provides emergency communication services, ground and air emergency ambulance response, standby support, and special rescue services to the community.',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 83786011,
@@ -85,14 +85,14 @@ const departments = [
       'Percent of potentially life-threatening calls responded to within 9 minutes and 59 seconds',
     ],
     url:
-      'https://data.Savannahtexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
+      'https://data.austintexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
   },
   {
     name: 'Planning & Zoning',
     description: 'Planning, preservation and design services',
     learnMore:
-      'The purpose of the Planning and Zoning Department is to provide planning and zoning, preservation, and design services to make Savannah the most livable city in the country\n\n Planning & Zoning is responsible for long range planning, current planning (including historic preservation, annexation, and zoning), urban design services, and updates of the Land Development Code.\n\n Current Projects underway include: Imagine Savannah, CodeNEXT, South Center Waterfront Initiative.',
-    url: 'https://data.Savannahtexas.gov/stories/s/Planning-and-Zoning/se7h-anvc',
+      'The purpose of the Planning and Zoning Department is to provide planning and zoning, preservation, and design services to make Austin the most livable city in the country\n\n Planning & Zoning is responsible for long range planning, current planning (including historic preservation, annexation, and zoning), urban design services, and updates of the Land Development Code.\n\n Current Projects underway include: Imagine Austin, CodeNEXT, South Center Waterfront Initiative.',
+    url: 'https://data.austintexas.gov/stories/s/Planning-and-Zoning/se7h-anvc',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 7642545,
@@ -106,7 +106,7 @@ const departments = [
     description:
       'Consolidates the process of land development permitting and assistance',
     learnMore:
-      'Development Services provides a mix of services to foster economic vibrancy, ensure the quality of new development and preserve our natural resources.\n\n The mission of the Department is to provide comprehensive development review and inspection services to build a better Savannah.\n\n  Building Plan Review is responsible for reviewing all construction plans for compliance with the Land Development Code before building permits can be issued. The Building Inspection Division performs construction related inspections for all buildings within the City limits, and electrical and plumbing services in the extra-territorial jurisdiction.',
+      'Development Services provides a mix of services to foster economic vibrancy, ensure the quality of new development and preserve our natural resources.\n\n The mission of the Department is to provide comprehensive development review and inspection services to build a better Austin.\n\n  Building Plan Review is responsible for reviewing all construction plans for compliance with the Land Development Code before building permits can be issued. The Building Inspection Division performs construction related inspections for all buildings within the City limits, and electrical and plumbing services in the extra-territorial jurisdiction.',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 37523998,
@@ -123,13 +123,13 @@ const departments = [
       'Percent of building inspections performed within 24 hours of request',
     ],
     url:
-      'https://data.savannahga.gov/stories/s/Development-Services/qwps-5848',
+      'https://data.austintexas.gov/stories/s/Development-Services/qwps-5848',
   },
   {
     name: 'Animal Services',
     description: 'Pet services, animal regulation, and shelter',
     learnMore:
-      'The mission of the Savannah Animal Services Department is to prevent animal homelessness and promote humane, compassionate treatment of animals by enforcing regulations, providing a safety net for lost or homeless animals, and achieving live outcomes for at least 90% of sheltered pets.\n\n  The departments provides an array of animal control, health, and pet-owner services to the public. They provide food, water, shelter and veterinary care for lost or homeless animals. They enforce animal regulations including impoundment, quarantine and other rabies control services.',
+      'The mission of the Austin Animal Services Department is to prevent animal homelessness and promote humane, compassionate treatment of animals by enforcing regulations, providing a safety net for lost or homeless animals, and achieving live outcomes for at least 90% of sheltered pets.\n\n  The departments provides an array of animal control, health, and pet-owner services to the public. They provide food, water, shelter and veterinary care for lost or homeless animals. They enforce animal regulations including impoundment, quarantine and other rabies control services.',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 12914285,
@@ -145,14 +145,14 @@ const departments = [
     metrics: [
       '90% of a live shelter outcome goal. This refers to 90% animals that enter the shelter are adopted, transferred to rescue programs, or returned to their homes',
     ],
-    url: 'https://data.savannahga.gov/stories/s/Animal-Services/qqkn-erv5',
+    url: 'https://data.austintexas.gov/stories/s/Animal-Services/qqkn-erv5',
   },
   {
     name: 'Parks & Recreation',
     description:
       'Providing, protecting, and preserving the city’s park system.',
     learnMore:
-      'The mission of the Parks and Recreation Department is to provide, protect, and preserve a premier park system that promotes quality recreational, cultural, and outdoor experiences for Savannahs citizens and visitors.\n\n  Parks and Recreation department is tasked with providing, protecting, and preserving the city’s park system',
+      'The mission of the Parks and Recreation Department is to provide, protect, and preserve a premier park system that promotes quality recreational, cultural, and outdoor experiences for Austins citizens and visitors.\n\n  Parks and Recreation department is tasked with providing, protecting, and preserving the city’s park system',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 80504938,
@@ -161,7 +161,7 @@ const departments = [
     percentChange: 0,
     deptId: 8,
     url:
-      'https://data.savannahga.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
+      'https://data.austintexas.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
     tradeoff: [
       {
         75000: '1 FTE for maintaining safe trails and playgrounds',
@@ -172,7 +172,7 @@ const departments = [
     name: 'Public Libraries',
     description: 'Provide easy access to books and information for all ages',
     learnMore:
-      'The mission of the Savannah Public Library is to provide easy access to books and information for all ages, through responsive professionals, engaging programs, and state of the art technology in a safe and friendly environment.\n\n The budget includes staffing and management of existing and planned library facilities.',
+      'The mission of the Austin Public Library is to provide easy access to books and information for all ages, through responsive professionals, engaging programs, and state of the art technology in a safe and friendly environment.\n\n The budget includes staffing and management of existing and planned library facilities.',
     tradeoff: [
       {
         23676.5: '1 Librarian',
@@ -180,7 +180,7 @@ const departments = [
     ],
     metrics: ['Library Program attendance per capita'],
     url:
-      'https://data.savannahga.gov/stories/s/Savannah-Public-Library/patt-h8xx',
+      'https://data.austintexas.gov/stories/s/Austin-Public-Library/patt-h8xx',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 47167036,
@@ -210,7 +210,7 @@ const departments = [
     metrics: [
       'Number of client visits at the Shots for Tots clinics for vaccines for children ages 0-18',
     ],
-    url: 'http://www.savannahga.gov/department/health/about',
+    url: 'http://www.austintexas.gov/department/health/about',
   },
   {
     name: 'Neighborhood Housing & Community Development',
@@ -234,7 +234,7 @@ const departments = [
       'Total number of services provided to beneficiaries through housing and community development',
     ],
     url:
-      'https://data.savannahga.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
+      'https://data.austintexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
   },
 ];
 
