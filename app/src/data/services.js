@@ -12,6 +12,7 @@ const services = [
     desc:
       "The community's safety and security is a top priority for City of Savannah leaders. Public safety made up nearly 70% of the City's general fund budget, providing for police, fire, EMS and municipal court services",
     departments: [1, 2, 3, 4],
+    status: 'ready',
   },
   {
     index: 2,
