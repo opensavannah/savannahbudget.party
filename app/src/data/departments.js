@@ -1,9 +1,9 @@
 const departments = [
   {
     name: 'Municipal Courts',
-    description: 'The judicial branch of the City of Austin',
+    description: 'The judicial branch of the City of Savannah',
     learnMore:
-      'The mission of the Municipal Courts is to provide fair, efficient, and accountable service to the public by impartially administering justice so that the quality of life is enhanced.\n\n  Municipal court and Downtown Austin Community Court make up the judicial branch of the City of Austin local government. The court oversees cases of traffic, city ordinance, state code, and parking violations.',
+      'The mission of the Municipal Courts is to provide fair, efficient, and accountable service to the public by impartially administering justice so that the quality of life is enhanced.\n\n  Municipal court and Downtown Savannah Community Court make up the judicial branch of the City of Savannah local government. The court oversees cases of traffic, city ordinance, state code, and parking violations.',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 27576596, // City Manager Proposed Budget
@@ -12,7 +12,7 @@ const departments = [
     amount2016: 22514014,
     percentChange: 0,
     deptId: 1,
-    url: 'https://data.austintexas.gov/stories/s/Municipal-Court/xm6x-8vij',
+    url: 'https://data.Savannahtexas.gov/stories/s/Municipal-Court/xm6x-8vij',
     metrics: [
       'Number of cases magistrated',
       'Percent of offenders who complete rehabilitative recommendations',
@@ -36,7 +36,7 @@ const departments = [
     amount2016: 373570249,
     percentChange: 0,
     deptId: 2,
-    url: 'https://data.austintexas.gov/stories/s/Police/v4d4-74jw',
+    url: 'https://data.Savannahtexas.gov/stories/s/Police/v4d4-74jw',
     tradeoff: [
       {
         112397.25: '1 Officer full year of funding with equipment, fuel, salary, pension, etc.',
@@ -47,7 +47,7 @@ const departments = [
     name: 'Fire',
     description: 'Fire prevention and emergency response',
     learnMore:
-      'The Austin Fire Department is committed to creating safer communities through prevention, preparedness and effective emergency response.\n\n ',
+      'The Savannah Fire Department is committed to creating safer communities through prevention, preparedness and effective emergency response.\n\n ',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 198478600,
@@ -56,7 +56,7 @@ const departments = [
     amount2017: 189013831,
     percentChange: 0,
     deptId: 3,
-    url: 'http://www.austintexas.gov/department/fire',
+    url: 'http://www.Savannahtexas.gov/department/fire',
     tradeoff: [
       {
         132829: '1 Lieutenant',
@@ -71,7 +71,7 @@ const departments = [
     name: 'Emergency Management Services',
     description: 'Emergency systems, communication, and response',
     learnMore:
-      'The mission of Austin-Travis County EMS is to positively impact and change the lives of the people we serve through the personal commitment of each of our members to provide great patient and customer care, pursue excellence in everything we do, and show compassion to others every day.\n\n EMS provides emergency communication services, ground and air emergency ambulance response, standby support, and special rescue services to the community.',
+      'The mission of Savannah-Travis County EMS is to positively impact and change the lives of the people we serve through the personal commitment of each of our members to provide great patient and customer care, pursue excellence in everything we do, and show compassion to others every day.\n\n EMS provides emergency communication services, ground and air emergency ambulance response, standby support, and special rescue services to the community.',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 88336542,
@@ -88,14 +88,14 @@ const departments = [
     metrics: [
       'Percent of potentially life-threatening calls responded to within 9 minutes and 59 seconds',
     ],
-    url: 'https://data.austintexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
+    url: 'https://data.Savannahtexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
   },
   {
     name: 'Planning & Zoning',
     description: 'Planning, preservation and design services',
     learnMore:
-      'The purpose of the Planning and Zoning Department is to provide planning and zoning, preservation, and design services to make Austin the most livable city in the country\n\n Planning & Zoning is responsible for long range planning, current planning (including historic preservation, annexation, and zoning), urban design services, and updates of the Land Development Code.\n\n Current Projects underway include: Imagine Austin, CodeNEXT, South Center Waterfront Initiative.',
-    url: 'https://data.austintexas.gov/stories/s/Planning-and-Zoning/se7h-anvc',
+      'The purpose of the Planning and Zoning Department is to provide planning and zoning, preservation, and design services to make Savannah the most livable city in the country\n\n Planning & Zoning is responsible for long range planning, current planning (including historic preservation, annexation, and zoning), urban design services, and updates of the Land Development Code.\n\n Current Projects underway include: Imagine Savannah, CodeNEXT, South Center Waterfront Initiative.',
+    url: 'https://data.Savannahtexas.gov/stories/s/Planning-and-Zoning/se7h-anvc',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 9043645,
@@ -109,7 +109,7 @@ const departments = [
     name: 'Animal Services',
     description: 'Pet services, animal regulation, and shelter',
     learnMore:
-      'The mission of the Austin Animal Services Department is to prevent animal homelessness and promote humane, compassionate treatment of animals by enforcing regulations, providing a safety net for lost or homeless animals, and achieving live outcomes for at least 90% of sheltered pets.\n\n  The departments provides an array of animal control, health, and pet-owner services to the public. They provide food, water, shelter and veterinary care for lost or homeless animals. They enforce animal regulations including impoundment, quarantine and other rabies control services.',
+      'The mission of the Savannah Animal Services Department is to prevent animal homelessness and promote humane, compassionate treatment of animals by enforcing regulations, providing a safety net for lost or homeless animals, and achieving live outcomes for at least 90% of sheltered pets.\n\n  The departments provides an array of animal control, health, and pet-owner services to the public. They provide food, water, shelter and veterinary care for lost or homeless animals. They enforce animal regulations including impoundment, quarantine and other rabies control services.',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 13911617,
@@ -126,13 +126,13 @@ const departments = [
     metrics: [
       '90% of a live shelter outcome goal. This refers to 90% animals that enter the shelter are adopted, transferred to rescue programs, or returned to their homes',
     ],
-    url: 'https://data.austintexas.gov/stories/s/Animal-Services/qqkn-erv5',
+    url: 'https://data.Savannahtexas.gov/stories/s/Animal-Services/qqkn-erv5',
   },
   {
     name: 'Parks & Recreation',
     description: 'Providing, protecting, and preserving the city’s park system.',
     learnMore:
-      'The mission of the Parks and Recreation Department is to provide, protect, and preserve a premier park system that promotes quality recreational, cultural, and outdoor experiences for Austins citizens and visitors.\n\n  Parks and Recreation department is tasked with providing, protecting, and preserving the city’s park system',
+      'The mission of the Parks and Recreation Department is to provide, protect, and preserve a premier park system that promotes quality recreational, cultural, and outdoor experiences for Savannahs citizens and visitors.\n\n  Parks and Recreation department is tasked with providing, protecting, and preserving the city’s park system',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 91862883,
@@ -141,7 +141,7 @@ const departments = [
     amount2016: 75432093,
     percentChange: 0,
     deptId: 7,
-    url: 'https://data.austintexas.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
+    url: 'https://data.Savannahtexas.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
     tradeoff: [
       {
         75000: '1 FTE for maintaining safe trails and playgrounds',
@@ -152,14 +152,14 @@ const departments = [
     name: 'Public Libraries',
     description: 'Provide easy access to books and information for all ages',
     learnMore:
-      'The mission of the Austin Public Library is to provide easy access to books and information for all ages, through responsive professionals, engaging programs, and state of the art technology in a safe and friendly environment.\n\n The budget includes staffing and management of existing and planned library facilities.',
+      'The mission of the Savannah Public Library is to provide easy access to books and information for all ages, through responsive professionals, engaging programs, and state of the art technology in a safe and friendly environment.\n\n The budget includes staffing and management of existing and planned library facilities.',
     tradeoff: [
       {
         23676.5: '1 Librarian',
       },
     ],
     metrics: ['Library Program attendance per capita'],
-    url: 'https://data.austintexas.gov/stories/s/Austin-Public-Library/patt-h8xx',
+    url: 'https://data.Savannahtexas.gov/stories/s/Savannah-Public-Library/patt-h8xx',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 52168472,
@@ -190,7 +190,7 @@ const departments = [
     metrics: [
       'Number of client visits at the Shots for Tots clinics for vaccines for children ages 0-18',
     ],
-    url: 'http://www.austintexas.gov/department/health/about',
+    url: 'http://www.Savannahtexas.gov/department/health/about',
   },
   {
     name: 'Neighborhood Housing & Community Development',
@@ -214,7 +214,7 @@ const departments = [
       'Total number of services provided to beneficiaries through housing and community development',
     ],
     url:
-      'https://data.austintexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
+      'https://data.Savannahtexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
   },
   {
     name: 'Social Service Contracts',
@@ -223,7 +223,7 @@ const departments = [
     learnMore:
       'Social Service contracts represent agreements for program funding for partner agencies and non-profits addressing children & youth, homelessness, behavioral health, workforce development, community planning, and HIV prevention. ',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Austin+Public+Health/0/div_nm/Social+Services+Contracts/0/gp_nm/Basic+Needs/0/unit_nm/Basic+Needs+Contracts/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Savannah+Public+Health/0/div_nm/Social+Services+Contracts/0/gp_nm/Basic+Needs/0/unit_nm/Basic+Needs+Contracts/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 35694422,
@@ -236,7 +236,7 @@ const departments = [
     description: 'Trainings and Tuition Reimbursements for City staff professional development',
     learnMore: 'Learn more about Human Resources training: ',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Human+Resources/0/div_nm/Division+placeholder/0/gp_nm/Group+placeholder/0/unit_nm/Tuition+Reimbursement/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Human+Resources/0/div_nm/Division+placeholder/0/gp_nm/Group+placeholder/0/unit_nm/Tuition+Reimbursement/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 465000,
@@ -246,7 +246,7 @@ const departments = [
     percentChange: 0,
     deptId: 12,
     url:
-      'https://data.austintexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
+      'https://data.Savannahtexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
   },
   {
     name: 'Interfund Transfers',
@@ -254,7 +254,7 @@ const departments = [
       'Transfers from general fund departments to other funds like Economic Incentives, Economic Development, Housing Trust Fund and more',
     learnMore: 'Learn more about Interfund Transfers: ',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Transfers/0/unit_nm/Interfund+Transfers-Other/0/obj_cat/Transfers/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Transfers/0/unit_nm/Interfund+Transfers-Other/0/obj_cat/Transfers/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 7836108,
@@ -270,7 +270,7 @@ const departments = [
       'Transfers are payments from general fund departments to non-general fund departments for services provided.  Examples include: the 311 call center, IT support, and utility billing support.',
     learnMore: 'Learn more about Interdepartmental Charges',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Other+Requirements/0/unit_nm/Other+Requirements/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Other+Requirements/0/unit_nm/Other+Requirements/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 35227574,
