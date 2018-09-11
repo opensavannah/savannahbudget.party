@@ -57,3 +57,6 @@ Once you have cloned this repo to you local machine, open the `app` directory in
 1. `yarn run deploy`
 
 ---
+
+### NOTE POST-DEPLOYMENT
++ Running `yarn run deploy` remove the custom domain from the GH repo. So, each time we redeploy, we need to ensure we change the custom domain under `Settings` to http://budget.opensavannah.org.
