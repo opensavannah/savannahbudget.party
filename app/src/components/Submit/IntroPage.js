@@ -13,7 +13,7 @@ const IntroPage = props => {
         className="Submit__img"
         alt="Envelope Icon"
       />
-      <h3 className="Submit__title">Your budget</h3>
+      <h3 className="Submit__title">Your Savannah budget</h3>
       <span className="Submit__desc">
         <FormattedNumber
           value={funds.sumOfServiceSpending}

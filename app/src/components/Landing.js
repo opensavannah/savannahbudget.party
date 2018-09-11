@@ -118,11 +118,11 @@ export default class Landing extends Component {
               <Link to="/application">Application</Link>
             </li>
             <li>
-              <Link to="/get-involved">Get Involved</Link>
+              <Link to="http://citycampsav.org/get-involved">Get Involved</Link>
             </li>
             <li>
               <a
-                href="https://github.com/open-austin/budgetparty"
+                href="https://github.com/opensavannah/savannahbudget.party"
                 target="_blank"
               >
                 View Budget Party on Github
@@ -130,7 +130,7 @@ export default class Landing extends Component {
             </li>
             <li>
               <a
-                href="https://victoria283.typeform.com/to/K5Ppy1"
+                href="mailto: yall@opensavannah.org"
                 target="_blank"
               >
                 Contact or Submit Feedback
