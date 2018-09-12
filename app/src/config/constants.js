@@ -1,11 +1,12 @@
 import firebase from 'firebase';
 
 const config = {
-  apiKey: 'AIzaSyDnT7O9yt45FGCNMyi_8G8ndYs2_mqqw1I',
-  authDomain: 'capmetro-a4e1f.firebaseapp.com',
-  databaseURL: 'https://capmetro-a4e1f.firebaseio.com',
-  storageBucket: 'capmetro-a4e1f.appspot.com',
-  messagingSenderId: '615069100604',
+  apiKey: 'AIzaSyCwHHaRREHQLfS0jtZ_5BN_pj_NdIJujcg',
+  authDomain: 'savannah-budget-party.firebaseapp.com',
+  databaseURL: 'https://savannah-budget-party.firebaseio.com',
+  projectId: 'savannah-budget-party',
+  storageBucket: 'savannah-budget-party.appspot.com',
+  messagingSenderId: '346523636973',
 };
 
 export const constants = {
