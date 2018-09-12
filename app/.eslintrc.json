@@ -1,8 +1,7 @@
 {
   "env": {
     "es6": true,
-    "node": true,
-    "jest": true
+    "node": true
   },
   "parser": "babel-eslint",
   "parserOptions": {
@@ -42,6 +41,7 @@
     "document": true,
     "fetch": true,
     "navigator": true,
-    "confirm": true
+    "confirm": true,
+    "alert": true
   }
 }
