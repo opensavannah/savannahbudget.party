@@ -8,3 +8,4 @@ npm-debug.log*
 **/*.css
 notes.md
 build
+static
