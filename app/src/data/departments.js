@@ -88,8 +88,7 @@ const departments = [
     metrics: [
       'Percent of potentially life-threatening calls responded to within 9 minutes and 59 seconds',
     ],
-    url:
-      'https://data.Savannahtexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
+    url: 'https://data.Savannahtexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
   },
   {
     name: 'Planning & Zoning',
@@ -151,7 +150,7 @@ const departments = [
     metrics: [
       '90% of a live shelter outcome goal. This refers to 90% animals that enter the shelter are adopted, transferred to rescue programs, or returned to their homes',
     ],
-    url: 'https://data.savannahga.gov/stories/s/Animal-Services/qqkn-erv5',
+    url: 'https://data.Savannahtexas.gov/stories/s/Animal-Services/qqkn-erv5',
   },
   {
     name: 'Parks & Recreation',
@@ -165,9 +164,8 @@ const departments = [
     amount2017: 80504938,
     amount2016: 75432093,
     percentChange: 0,
-    deptId: 8,
-    url:
-      'https://data.savannahga.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
+    deptId: 7,
+    url: 'https://data.Savannahtexas.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
     tradeoff: [
       {
         75000: '1 FTE for maintaining safe trails and playgrounds',
@@ -185,8 +183,7 @@ const departments = [
       },
     ],
     metrics: ['Library Program attendance per capita'],
-    url:
-      'https://data.savannahga.gov/stories/s/Savannah-Public-Library/patt-h8xx',
+    url: 'https://data.Savannahtexas.gov/stories/s/Savannah-Public-Library/patt-h8xx',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 52168472,
@@ -217,7 +214,7 @@ const departments = [
     metrics: [
       'Number of client visits at the Shots for Tots clinics for vaccines for children ages 0-18',
     ],
-    url: 'http://www.savannahga.gov/department/health/about',
+    url: 'http://www.Savannahtexas.gov/department/health/about',
   },
   {
     name: 'Neighborhood Housing & Community Development',
@@ -241,7 +238,39 @@ const departments = [
       'Total number of services provided to beneficiaries through housing and community development',
     ],
     url:
-      'https://data.savannahga.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
+      'https://data.Savannahtexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
+  },
+  {
+    name: 'Social Service Contracts',
+    description:
+      'Programs with partner agencies and non-profits addressing children & youth, homelessness, behavioral health, workforce development, community planning, and HIV prevention.',
+    learnMore:
+      'Social Service contracts represent agreements for program funding for partner agencies and non-profits addressing children & youth, homelessness, behavioral health, workforce development, community planning, and HIV prevention. ',
+    learnMoreUrl:
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Savannah+Public+Health/0/div_nm/Social+Services+Contracts/0/gp_nm/Basic+Needs/0/unit_nm/Basic+Needs+Contracts/0/obj_cat?vis=barChart',
+    amount: null,
+    explainYourSpending: null,
+    lastYearAmount: 35694422,
+    amount2018: 35694422,
+    percentChange: 0,
+    deptId: 11,
+  },
+  {
+    name: 'Human Resources',
+    description: 'Trainings and Tuition Reimbursements for City staff professional development',
+    learnMore: 'Learn more about Human Resources training: ',
+    learnMoreUrl:
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Human+Resources/0/div_nm/Division+placeholder/0/gp_nm/Group+placeholder/0/unit_nm/Tuition+Reimbursement/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
+    amount: null,
+    explainYourSpending: null,
+    lastYearAmount: 465000,
+    amount2018: 465000,
+    amount2017: 465000,
+    amount2016: 465000,
+    percentChange: 0,
+    deptId: 12,
+    url:
+      'https://data.Savannahtexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
   },
   {
     name: 'Interfund Transfers',
@@ -249,7 +278,7 @@ const departments = [
       'Transfers from general fund departments to other funds like Economic Incentives, Economic Development, Housing Trust Fund and more',
     learnMore: 'Learn more about Interfund Transfers: ',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Transfers/0/unit_nm/Interfund+Transfers-Other/0/obj_cat/Transfers/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Transfers/0/unit_nm/Interfund+Transfers-Other/0/obj_cat/Transfers/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 7836108,
@@ -265,7 +294,7 @@ const departments = [
       'Transfers are payments from general fund departments to non-general fund departments for services provided.  Examples include: the 311 call center, IT support, and utility billing support.',
     learnMore: 'Learn more about Interdepartmental Charges',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Other+Requirements/0/unit_nm/Other+Requirements/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Other+Requirements/0/unit_nm/Other+Requirements/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 35227574,
