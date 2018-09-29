@@ -8,8 +8,12 @@ const IntroPage = (props) => {
 
   return (
     <div className="Submit__intro-body">
-      <img src={'/images/submit.svg'} className="Submit__img" alt="Envelope Icon" />
-      <h3 className="Submit__title">Your budget</h3>
+      <img
+        src={'/images/submit.svg'}
+        className="Submit__img"
+        alt="Envelope Icon"
+      />
+      <h3 className="Submit__title">Your Savannah budget</h3>
       <span className="Submit__desc">
         <FormattedNumber
           value={funds.sumOfServiceSpending}

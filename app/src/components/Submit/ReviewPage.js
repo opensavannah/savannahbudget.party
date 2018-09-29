@@ -18,7 +18,7 @@ const ReviewPage = (props) => {
       <div className="Submit__body">
         <h3>Review Your Budget Changes</h3>
         <h4 className="Submit__review-subtitle">
-          You opted to increase overall service spending from the City Manager's Proposed amount.
+          You opted to increase overall service spending from last years amount. If you did not also increase revenues to match or come within $250000, remember your submission will not be counted. 
         </h4>
         {services.map((service) => {
           const incDecText = service.percentChange > 0 ? 'Increased' : 'Decreased';
