@@ -1,1 +1,10 @@
 .DS_Store
+node_modules
+**/*.bundle.js*
+npm-debug.log
+dist
+.publish
+npm-debug.log*
+**/*.css
+notes.md
+build
