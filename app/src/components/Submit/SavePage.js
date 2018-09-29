@@ -30,10 +30,14 @@ class SavePage extends Component {
   }
 
   renderDistrictOptions = () => {
-    const options = []
-    options.push(<option value="0" key={0}>Select your Council District</option>)
-    for (let i = 1; i < 11; i += 1) {
-      options.push(<option value={i} key={i}>{`District ${i}`}</option>)
+    const options = [];
+    options.push(
+      <option value="0" key={0}>
+        Select your Council District
+      </option>,
+    );
+    for (let i = 1; i < 7; i += 1) {
+      options.push(<option value={i} key={i}>{`District ${i}`}</option>);
     }
     return options
   }
@@ -108,7 +112,9 @@ class SavePage extends Component {
         <label htmlFor="councilDistrict">Council District</label>
         <small>
           Not sure what district you live in? &nbsp;
-          <a href="http://www.austintexas.gov/GIS/CouncilDistrictMap/">Check this map.</a>
+          <a href="https://opensavannah.org/neighborhood-ambassador">
+            Check this map.
+          </a>
         </small>
         <select name="councilDistrict" id="councilDistrict"
           onChange={this.handleChange} value={this.state.councilDistrict}
