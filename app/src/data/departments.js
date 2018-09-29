@@ -88,7 +88,7 @@ const departments = [
     metrics: [
       'Percent of potentially life-threatening calls responded to within 9 minutes and 59 seconds',
     ],
-    url: 'https://data.Savannahtexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
+    url: 'https://data.austintexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
   },
   {
     name: 'Planning & Zoning',
@@ -104,30 +104,6 @@ const departments = [
     amount2016: 7505329,
     percentChange: 0,
     deptId: 5,
-  },
-  {
-    name: 'Development Services',
-    description:
-      'Consolidates the process of land development permitting and assistance',
-    learnMore:
-      'Development Services provides a mix of services to foster economic vibrancy, ensure the quality of new development and preserve our natural resources.\n\n The mission of the Department is to provide comprehensive development review and inspection services to build a better Savannah.\n\n  Building Plan Review is responsible for reviewing all construction plans for compliance with the Land Development Code before building permits can be issued. The Building Inspection Division performs construction related inspections for all buildings within the City limits, and electrical and plumbing services in the extra-territorial jurisdiction.',
-    amount: null,
-    explainYourSpending: null,
-    lastYearAmount: 37523998,
-    amount2016: 32902297,
-    amount2017: 37523998,
-    percentChange: 0,
-    deptId: 6,
-    tradeoff: [
-      {
-        68764: '1 FTE for land-use permit review',
-      },
-    ],
-    metrics: [
-      'Percent of building inspections performed within 24 hours of request',
-    ],
-    url:
-      'https://data.savannahga.gov/stories/s/Development-Services/qwps-5848',
   },
   {
     name: 'Animal Services',
@@ -165,7 +141,7 @@ const departments = [
     amount2016: 75432093,
     percentChange: 0,
     deptId: 7,
-    url: 'https://data.Savannahtexas.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
+    url: 'https://data.austintexas.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
     tradeoff: [
       {
         75000: '1 FTE for maintaining safe trails and playgrounds',
@@ -183,7 +159,7 @@ const departments = [
       },
     ],
     metrics: ['Library Program attendance per capita'],
-    url: 'https://data.Savannahtexas.gov/stories/s/Savannah-Public-Library/patt-h8xx',
+    url: 'https://data.austintexas.gov/stories/s/Austin-Public-Library/patt-h8xx',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 52168472,
@@ -247,7 +223,7 @@ const departments = [
     learnMore:
       'Social Service contracts represent agreements for program funding for partner agencies and non-profits addressing children & youth, homelessness, behavioral health, workforce development, community planning, and HIV prevention. ',
     learnMoreUrl:
-      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Savannah+Public+Health/0/div_nm/Social+Services+Contracts/0/gp_nm/Basic+Needs/0/unit_nm/Basic+Needs+Contracts/0/obj_cat?vis=barChart',
+      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Austin+Public+Health/0/div_nm/Social+Services+Contracts/0/gp_nm/Basic+Needs/0/unit_nm/Basic+Needs+Contracts/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 35694422,
@@ -260,7 +236,7 @@ const departments = [
     description: 'Trainings and Tuition Reimbursements for City staff professional development',
     learnMore: 'Learn more about Human Resources training: ',
     learnMoreUrl:
-      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Human+Resources/0/div_nm/Division+placeholder/0/gp_nm/Group+placeholder/0/unit_nm/Tuition+Reimbursement/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
+      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Human+Resources/0/div_nm/Division+placeholder/0/gp_nm/Group+placeholder/0/unit_nm/Tuition+Reimbursement/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 465000,
@@ -270,7 +246,7 @@ const departments = [
     percentChange: 0,
     deptId: 12,
     url:
-      'https://data.Savannahtexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
+      'https://data.austintexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
   },
   {
     name: 'Interfund Transfers',
@@ -278,7 +254,7 @@ const departments = [
       'Transfers from general fund departments to other funds like Economic Incentives, Economic Development, Housing Trust Fund and more',
     learnMore: 'Learn more about Interfund Transfers: ',
     learnMoreUrl:
-      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Transfers/0/unit_nm/Interfund+Transfers-Other/0/obj_cat/Transfers/0/obj_cat?vis=barChart',
+      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Transfers/0/unit_nm/Interfund+Transfers-Other/0/obj_cat/Transfers/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 7836108,
@@ -294,7 +270,7 @@ const departments = [
       'Transfers are payments from general fund departments to non-general fund departments for services provided.  Examples include: the 311 call center, IT support, and utility billing support.',
     learnMore: 'Learn more about Interdepartmental Charges',
     learnMoreUrl:
-      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Other+Requirements/0/unit_nm/Other+Requirements/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
+      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Other+Requirements/0/unit_nm/Other+Requirements/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 35227574,
