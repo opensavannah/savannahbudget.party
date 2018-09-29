@@ -1,12 +1,13 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: 'AIzaSyDVYXW7KD054GkOAzHb597yrEZMMxz0aDM',
-  authDomain: 'budget-party.firebaseapp.com',
-  databaseURL: 'https://budget-party.firebaseio.com',
-  storageBucket: 'budget-party.appspot.com',
-  messagingSenderId: '784889150023',
-}
+  apiKey: 'AIzaSyCwHHaRREHQLfS0jtZ_5BN_pj_NdIJujcg',
+  authDomain: 'savannah-budget-party.firebaseapp.com',
+  databaseURL: 'https://savannah-budget-party.firebaseio.com',
+  projectId: 'savannah-budget-party',
+  storageBucket: 'savannah-budget-party.appspot.com',
+  messagingSenderId: '346523636973',
+};
 
 export const constants = {
   LAST_YEAR: 2016,
