@@ -244,38 +244,6 @@ const departments = [
       'https://data.savannahga.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
   },
   {
-    name: 'Social Service Contracts',
-    description:
-      'Programs with partner agencies and non-profits addressing children & youth, homelessness, behavioral health, workforce development, community planning, and HIV prevention.',
-    learnMore:
-      'Social Service contracts represent agreements for program funding for partner agencies and non-profits addressing children & youth, homelessness, behavioral health, workforce development, community planning, and HIV prevention. ',
-    learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Austin+Public+Health/0/div_nm/Social+Services+Contracts/0/gp_nm/Basic+Needs/0/unit_nm/Basic+Needs+Contracts/0/obj_cat?vis=barChart',
-    amount: null,
-    explainYourSpending: null,
-    lastYearAmount: 35694422,
-    amount2018: 35694422,
-    percentChange: 0,
-    deptId: 11,
-  },
-  {
-    name: 'Human Resources',
-    description: 'Trainings and Tuition Reimbursements for City staff professional development',
-    learnMore: 'Learn more about Human Resources training: ',
-    learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Human+Resources/0/div_nm/Division+placeholder/0/gp_nm/Group+placeholder/0/unit_nm/Tuition+Reimbursement/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
-    amount: null,
-    explainYourSpending: null,
-    lastYearAmount: 465000,
-    amount2018: 465000,
-    amount2017: 465000,
-    amount2016: 465000,
-    percentChange: 0,
-    deptId: 12,
-    url:
-      'https://data.austintexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
-  },
-  {
     name: 'Interfund Transfers',
     description:
       'Transfers from general fund departments to other funds like Economic Incentives, Economic Development, Housing Trust Fund and more',
