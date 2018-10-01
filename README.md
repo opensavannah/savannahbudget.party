@@ -1,22 +1,8 @@
-<img src="http://dsh.re/af3f9" width="300"/>
-
-### Table of Contents
-
-- [Project Description](#project-description)
-- [What's next?](#what's-next)
-- [Dev Getting Started](#dev-getting-started)
-
 ## 👋🏼 Hello! 
-
-We're Team Budget Party! Our team includes developers, designers, a publisher, a curriculum writer and educators from [Open Austin](https://www.open-austin.org/), the [Austin Monitor](https://www.austinmonitor.com/), and Austin ISD.
-
-We are interested in the health of our civic fabric and we are excited about the potential for youth inclusion in the decision making process of local government.
-
-Thanks for coming here to learn more!
 
 ## Project Description
 
-Budget Party was built to help people understand and augment a city budget for Austin. It is an interactive app that is best used in context of a "Budget Party" event. 
+Budget Party was built to help people understand and augment a city budget for Savannah. It is an interactive app that is best used in context of a "Budget Party" event. 
 
 Historically, Budget party events have 4 parts:
 
@@ -24,31 +10,6 @@ Historically, Budget party events have 4 parts:
 * **Budget Party App Use.** People get into small teams with neighbors to go through the app and allocate funds to different departments. 
 * **Judging** A selection of people with real city budgeting experience judge the submitted budgets and choose a winner based on the night’s criteria. 
 * **Panel Discussion** Once judging is done there is an open discussion on budgeting based on the submitted budgets, feasibility, and real world budgeting experience from the panelist/judges. 
-
-
-
-Read about the [history of Budget Party](https://github.com/open-austin/budgetparty/wiki/Project-History) which includes information on the inception of the project and our Mozilla Grant funding. 
-
-
-
-
-
-
-## What's Next
-The Budget Party team is currently on pause. Budget season in Austin is over for 2017 but we are working to evaluate how best to move forward with the project to be ready for the 2018 budget season. 
-
-**Got an idea?** [Reach out to the team!](https://victoria283.typeform.com/to/K5Ppy1) Community feedback is valuable in helping us evaluate our next steps. How can we make Budget Party more valuable for you? 
-
-### Contributing
-
-This project has received contributions from some wonderful volunteers. We would love to add your name to the list below. Over the course of this project, we have opportunities to help with design, development, QA & testing, writing, and more. To contribute, you can:
-
-- Report a bug or request a feature by [opening a new issue](https://github.com/open-austin/budgetparty/issues/new).
-- [Review open issues](https://github.com/open-austin/budgetparty/issues) and leave a comment if you'd like to help or if you need more information.
-
-For more information on how to get invovled check out [CONTRIBUTING.md](/CONTRIBUTING.md).
-
-Also view our [list of contributors](https://github.com/open-austin/budgetparty/wiki/Contributors-&-Contributing).
 
 
 ## Dev Getting started 
