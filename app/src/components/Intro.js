@@ -18,9 +18,9 @@ import { FormattedNumber } from 'react-intl';
 const generalFundAmount = Number(funds.generalFund / 1000000000).toFixed(3);
 
 const introText = [
-  `As a council member you have $${generalFundAmount} Billion to fund services for all of Austin, Texas`,
+  `As an Alderman you have $${generalFundAmount} Billion to fund services for all of Savannah, Georgia`,
   'This money comes from the General Fund for 2018-19',
-  'This money helps Austin run programs and employs 13,838 civil servants',
+  'This money helps Savannah run programs and employs 13,838 civil servants',
   'Outside effects like population change and overall economic activity cause the fund to vary year to year',
   "It's now up to you to make sure we allocate the funds and create a fair budget.",
 ];
