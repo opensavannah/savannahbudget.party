@@ -1,14 +1,14 @@
 const departments = [
   {
-    name: 'Municipal Courts',
-    description: 'The judicial branch of the City of Savannah',
+    name: 'Fire',
+    description: 'The fire services department of the City of Savannah',
     learnMore:
-      'The mission of the Municipal Courts is to provide fair, efficient, and accountable service to the public by impartially administering justice so that the quality of life is enhanced.\n\n  Municipal court and Downtown Savannah Community Court make up the judicial branch of the City of Savannah local government. The court oversees cases of traffic, city ordinance, state code, and parking violations.',
+      'The Savannah Fire Department is committed to creating safer communities through prevention, preparedness and effective emergency response.',
     amount: null,
     explainYourSpending: null,
-    lastYearAmount: 27576596, // City Manager Proposed Budget
-    amount2018: 27576596,
-    amount2017: 22514014,
+    lastYearAmount: 32023839, // City Manager Proposed Budget
+    amount2018: 32023839,
+    amount2017: 32023839,
     amount2016: 22514014,
     percentChange: 0,
     deptId: 1,
@@ -27,11 +27,11 @@ const departments = [
     name: 'Police',
     description: 'Law enforcement and crime prevention',
     learnMore:
-      'The mission of the Police Department is to keep you, your family and our community safe.\n\n Officers do everything from enforcing the law, to preventing crime, investigating crime, reaching out to the community and writing reports',
+      'The mission of the Savannah Police Department is to keep you, your family and our community safe.\n\n Officers do everything from enforcing the law, to preventing crime, investigating crime, reaching out to the community and writing reports',
     amount: null,
     explainYourSpending: null,
-    lastYearAmount: 415749070,
-    amount2018: 415749070,
+    lastYearAmount: 58070771,
+    amount2018: 58070771,
     amount2017: 386573423,
     amount2016: 373570249,
     percentChange: 0,
@@ -44,16 +44,16 @@ const departments = [
     ],
   },
   {
-    name: 'Fire',
-    description: 'Fire prevention and emergency response',
+    name: 'Mobility Services',
+    description: 'Parking, street-lights, bike lanes, roads.',
     learnMore:
-      'The Savannah Fire Department is committed to creating safer communities through prevention, preparedness and effective emergency response.\n\n ',
+      'Mobility Services Department operates the City parking management program, performs street maintenance, streetlights, and bike lanes.\n\n ',
     amount: null,
     explainYourSpending: null,
-    lastYearAmount: 198478600,
-    amount2018: 198478600,
-    amount2016: 175266499,
-    amount2017: 189013831,
+    lastYearAmount: 10529722,
+    amount2018: 10529722,
+    amount2016: 10529722,
+    amount2017: 10529722,
     percentChange: 0,
     deptId: 3,
     url: 'http://www.Savannahtexas.gov/department/fire',
@@ -68,8 +68,8 @@ const departments = [
     ],
   },
   {
-    name: 'Emergency Management Services',
-    description: 'Emergency systems, communication, and response',
+    name: 'Public Works and Water Resources Department',
+    description: 'Parks, squares, street maintenance, and stormwater management',
     learnMore:
       'The mission of Savannah-Travis County EMS is to positively impact and change the lives of the people we serve through the personal commitment of each of our members to provide great patient and customer care, pursue excellence in everything we do, and show compassion to others every day.\n\n EMS provides emergency communication services, ground and air emergency ambulance response, standby support, and special rescue services to the community.',
     amount: null,
@@ -88,7 +88,7 @@ const departments = [
     metrics: [
       'Percent of potentially life-threatening calls responded to within 9 minutes and 59 seconds',
     ],
-    url: 'https://data.austintexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
+    url: 'https://data.Savannahtexas.gov/stories/s/Emergency-Medical-Services/nq44-vyqb',
   },
   {
     name: 'Planning & Zoning',
@@ -141,7 +141,7 @@ const departments = [
     amount2016: 75432093,
     percentChange: 0,
     deptId: 7,
-    url: 'https://data.austintexas.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
+    url: 'https://data.Savannahtexas.gov/stories/s/Parks-and-Recreation/wgi2-kbuk',
     tradeoff: [
       {
         75000: '1 FTE for maintaining safe trails and playgrounds',
@@ -159,7 +159,7 @@ const departments = [
       },
     ],
     metrics: ['Library Program attendance per capita'],
-    url: 'https://data.austintexas.gov/stories/s/Austin-Public-Library/patt-h8xx',
+    url: 'https://data.Savannahtexas.gov/stories/s/Savannah-Public-Library/patt-h8xx',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 52168472,
@@ -223,7 +223,7 @@ const departments = [
     learnMore:
       'Social Service contracts represent agreements for program funding for partner agencies and non-profits addressing children & youth, homelessness, behavioral health, workforce development, community planning, and HIV prevention. ',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Austin+Public+Health/0/div_nm/Social+Services+Contracts/0/gp_nm/Basic+Needs/0/unit_nm/Basic+Needs+Contracts/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Savannah+Public+Health/0/div_nm/Social+Services+Contracts/0/gp_nm/Basic+Needs/0/unit_nm/Basic+Needs+Contracts/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 35694422,
@@ -236,7 +236,7 @@ const departments = [
     description: 'Trainings and Tuition Reimbursements for City staff professional development',
     learnMore: 'Learn more about Human Resources training: ',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Human+Resources/0/div_nm/Division+placeholder/0/gp_nm/Group+placeholder/0/unit_nm/Tuition+Reimbursement/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Human+Resources/0/div_nm/Division+placeholder/0/gp_nm/Group+placeholder/0/unit_nm/Tuition+Reimbursement/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 465000,
@@ -246,7 +246,7 @@ const departments = [
     percentChange: 0,
     deptId: 12,
     url:
-      'https://data.austintexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
+      'https://data.Savannahtexas.gov/stories/s/Neighborhood-Housing-and-Community-Development/wywe-6mv3',
   },
   {
     name: 'Interfund Transfers',
@@ -254,7 +254,7 @@ const departments = [
       'Transfers from general fund departments to other funds like Economic Incentives, Economic Development, Housing Trust Fund and more',
     learnMore: 'Learn more about Interfund Transfers: ',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Transfers/0/unit_nm/Interfund+Transfers-Other/0/obj_cat/Transfers/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Transfers/0/unit_nm/Interfund+Transfers-Other/0/obj_cat/Transfers/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 7836108,
@@ -270,7 +270,7 @@ const departments = [
       'Transfers are payments from general fund departments to non-general fund departments for services provided.  Examples include: the 311 call center, IT support, and utility billing support.',
     learnMore: 'Learn more about Interdepartmental Charges',
     learnMoreUrl:
-      'http://budget.austintexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Other+Requirements/0/unit_nm/Other+Requirements/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
+      'http://budget.Savannahtexas.gov/#!/year/2017/operating/0/fund_nm/General+Fund/0/dept_nm/Non-Departmental/0/div_nm/Transfers+and+Other+Requirements/0/gp_nm/Other+Requirements/0/unit_nm/Other+Requirements/0/obj_cat/Contractuals/0/obj_cat?vis=barChart',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 35227574,
