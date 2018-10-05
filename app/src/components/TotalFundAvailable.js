@@ -9,8 +9,7 @@ const TotalFundAvailable = (props) => {
   return (
     <div className="TotalFundsAvailable">
       <h4 className="TotalFundsAvailable__header">
-        Total Funds<br/>
-        Available
+        Money Left
       </h4>
       <h4 className="TotalFundsAvailable__dollars">
         <FormattedNumber
