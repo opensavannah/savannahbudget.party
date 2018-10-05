@@ -71,13 +71,13 @@ const departments = [
     name: 'Public Works and Water Resources Department',
     description: 'Parks, squares, street maintenance, and stormwater management',
     learnMore:
-      'The mission of Savannah-Travis County EMS is to positively impact and change the lives of the people we serve through the personal commitment of each of our members to provide great patient and customer care, pursue excellence in everything we do, and show compassion to others every day.\n\n EMS provides emergency communication services, ground and air emergency ambulance response, standby support, and special rescue services to the community.',
+      'The mission of Savannah County EMS is to positively impact and change the lives of the people we serve through the personal commitment of each of our members to provide great patient and customer care, pursue excellence in everything we do, and show compassion to others every day.\n\n EMS provides emergency communication services, ground and air emergency ambulance response, standby support, and special rescue services to the community.',
     amount: null,
     explainYourSpending: null,
-    lastYearAmount: 88336542,
-    amount2018: 88336542,
-    amount2017: 83786011,
-    amount2016: 78255956,
+    lastYearAmount: 19363232,
+    amount2018: 19363232,
+    amount2017: 19363232,
+    amount2016: 19363232,
     percentChange: 0,
     deptId: 4,
     tradeoff: [

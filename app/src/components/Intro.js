@@ -15,12 +15,12 @@ import introConfetti4 from '../images/intro-confetti/4.svg';
 import funds from '../data/funds';
 import { FormattedNumber } from 'react-intl';
 
-const generalFundAmount = Number(funds.generalFund / 1000000000).toFixed(3);
+const generalFundAmount = Number(funds.generalFund / 1000000);
 
 const introText = [
-  `As an Alderman you have $${generalFundAmount} Billion to fund services for all of Savannah, Georgia`,
+  `As an Alderman you have $${generalFundAmount} million to fund services for all of Savannah, Georgia`,
   'This money comes from the General Fund for 2018-19',
-  'This money helps Savannah run programs and employs 13,838 civil servants',
+  'This money helps Savannah run programs and employs 2,468 civil servants',
   'Outside effects like population change and overall economic activity cause the fund to vary year to year',
   "It's now up to you to make sure we allocate the funds and create a fair budget.",
 ];
