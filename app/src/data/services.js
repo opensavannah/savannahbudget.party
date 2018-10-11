@@ -35,7 +35,7 @@ const services = [
 {
     index: 4,
     title: 'Municipal Operations',
-    image: 'community_services.svg',
+    image: 'justice.svg',
     desc:
       'The City of Savannah prioritzes improving its performance and service delivery efficiency for maximum benefit to residents. The Municipal Operations service center oversees Real Estate Services, Recorders Court, Financial Services, and Information Technology.',
     departments: [10, 11, 12, 13],
