@@ -2,7 +2,7 @@ const departments = [
   {
     name: 'Fire',
     description: 'The fire services department of the City of Savannah',
-    learnMore: '• Reduce Firefighter Hiring by 25, $1,700,000  - Do not hire 25 additional firemen –Plans to recruit and hire 25 additional firemen will be put on hold.  The spring training class will be cancelled, saving funds for hiring and equipment.  The size of the fire force will be reduced through attrition. \n\n • Close one Fire Station, $1,500,000\n\n • Fire station brownouts, $1,000,000',
+    learnMore: '• Reduce Firefighter Hiring by 25, $1,700,000 \n\n - Do not hire 25 additional firemen \n\n –Plans to recruit and hire 25 additional firemen will be put on hold. The spring training class will be cancelled, saving funds for hiring and equipment. \n\n The size of the fire force will be reduced through attrition. \n\n • Close one Fire Station, $1,500,000\n\n • Fire station brownouts, $1,000,000',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 32023839, // City Manager Proposed Budget
@@ -26,7 +26,7 @@ const departments = [
     name: 'Police',
     description: 'Law enforcement and crime prevention',
     learnMore:
-      'The mission of the Savannah Police Department is to keep you, your family and our community safe.\n\n Officers do everything from enforcing the law, to preventing crime, investigating crime, reaching out to the community and writing reports',
+      '•  Close One (1) Community Center, $300,000 \n\n  One of Savannah’s 15 community service centers will be closed or consolidated with another service center.  Programs including Academic Assistance, Business and Career Development, Cooking Classes, and Fitness Classes may be cancelled. \n\n Reduce Community Center Hours, $300,000 \n\n -   Community Centers will operate with reduced hours at an average of 5 hours per week.  Alternatively, one or more community centers may be closed.  This reduction will result in displacement of programming.',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 58070771,
@@ -108,7 +108,7 @@ const departments = [
     name: 'Parks and Recreation',
     description: 'Parks, monuments, historic squares.',
     learnMore:
-      'Providing, protecting, and preserving the city’s park system.\n\nThe mission of the Parks and Recreation Department is to provide, protect, and preserve a premier park system that promotes quality recreational, cultural, and outdoor experiences for Savannahs citizens and visit ',
+      'Providing, protecting, and preserving the city’s park system.\n\nThe Parks and Recreation Department is responsible for providing residents of Savannah and neighboring communities with access to quality recreational programs, well-maintained parks, buildings areas',
     amount: null,
     explainYourSpending: null,
     lastYearAmount: 9550391,
