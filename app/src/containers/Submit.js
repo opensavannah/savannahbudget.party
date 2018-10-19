@@ -12,17 +12,17 @@ const mapDispatchToProps = (dispatch) => {
   return {
     onSubmit: (userId, data) => {
       console.log('Not saving data', data);
-      // if (userId) {
-      //   database.app
-      //     .database()
-      //     .ref(`userResults/${userId}`)
-      //     .update(data);
-      // } else {
-      //   database.app
-      //     .database()
-      //     .ref('userResults')
-      //     .push(data);
-      // }
+       if (userId) {
+         database.app
+           .database()
+          .ref(`userResults/${userId}`)
+           .update(data);
+       } else {
+         database.app
+           .database()
+           .ref('userResults')
+           .push(data);
+       }
     },
   };
 };
